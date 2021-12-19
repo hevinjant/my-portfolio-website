@@ -1,38 +1,188 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/******* NAVBAR *******/
+.navbar {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .left-nav {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.navbar .right-nav {
+  flex: 50%;
+  height: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navbar a {
+  z-index: 2;
   color: white;
+  text-decoration: none;
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar .right-nav button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar #show {
+  padding-left: 0px;
+}
+
+.navbar #show .hiddenLinks {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 100px;
+  background-color: black;
+}
+
+.navbar #show a {
+  width: 70px;
+  margin: 20px;
+}
+
+.navbar #hide .hiddenLinks {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar .right-nav a {
+    width: 70px;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar .leftSide {
+    padding-left: 50px;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .right-nav a {
+    display: none;
+  }
+
+  .navbar .right-nav {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .navbar .right-nav button {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar .right-nav button {
+    display: none;
+  }
+
+  .navbar #show .hiddenLinks {
+    display: none;
+    background-color: white;
+  }
+}
+
+/******* PROJECTS *******/
+.projects {
+  background-color: red;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  place-items: center;
+}
+
+.projects h1 {
+  color: gray;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.project-list {
+  background-color: whitesmoke;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-item {
+  border-radius: 5px;
+  width: 300px;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 1300px) {
+  .project-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/******* FOOTER *******/
+.footer {
+  z-index: 2;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+}
+
+.socialMedia svg {
+  color: white;
+  margin: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.footer p {
+  color: white;
 }
