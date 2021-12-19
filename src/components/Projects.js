@@ -4,21 +4,24 @@ import { myProjects } from "../Data";
 
 function Projects() {
   return (
-    <div className="projects">
-      <h1>My Projects</h1>
-      <div className="project-list">
-        {myProjects.map((project, key) => {
-          return (
-            <ProjectItem
-              key={key}
-              name={project.name}
-              description={project.description}
-              url={project.url}
-            />
-          );
-        })}
+    <>
+      <span className="anchor-projects" id="section-projects"></span>
+      <div className="projects" id="section-projects">
+        <h1>My Projects</h1>
+        <div className="project-list">
+          {myProjects.map((project, key) => {
+            return (
+              <ProjectItem
+                key={key}
+                name={project.name}
+                description={project.description}
+                url={project.url}
+              />
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

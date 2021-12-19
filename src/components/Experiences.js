@@ -9,29 +9,32 @@ import { myExperiences } from "../Data";
 
 function Experiences() {
   return (
-    <div className="experiences">
-      <h1>Experiences</h1>
-      <Timeline position="alternate">
-        {myExperiences.map((experience) => {
-          return (
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineDot />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>
-                {experience.title}
-                <p>
-                  {experience.interval}
-                  <br />
-                  {experience.description}
-                </p>
-              </TimelineContent>
-            </TimelineItem>
-          );
-        })}
-      </Timeline>
-    </div>
+    <>
+      <span className="anchor-experiences" id="section-experiences"></span>
+      <div className="experiences">
+        <h1>Experiences</h1>
+        <Timeline position="alternate">
+          {myExperiences.map((experience) => {
+            return (
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  {experience.title}
+                  <p>
+                    {experience.interval}
+                    <br />
+                    {experience.description}
+                  </p>
+                </TimelineContent>
+              </TimelineItem>
+            );
+          })}
+        </Timeline>
+      </div>
+    </>
   );
 }
 

@@ -11,15 +11,15 @@ function Navbar() {
     <div className="navbar">
       <div className="left-nav" id={showLinks ? "show" : "hide"}>
         <div className="hiddenLinks">
-          <a href="#">Projects</a>
-          <a href="#">Experiences</a>
-          <a href="#">About Me</a>
+          <a href="#section-projects">Projects</a>
+          <a href="#section-experiences">Experiences</a>
+          <a href="#section-about">About Me</a>
         </div>
       </div>
       <div className="right-nav">
-        <a href="#">Projects</a>
-        <a href="#">Experiences</a>
-        <a href="#">About Me</a>
+        <a href="#section-projects">Projects</a>
+        <a href="#section-experiences">Experiences</a>
+        <a href="#section-about">About Me</a>
         <button onClick={toggleNavbar}>Burger Icon</button>
       </div>
     </div>

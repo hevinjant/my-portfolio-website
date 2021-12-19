@@ -14,6 +14,7 @@ body {
 /******* NAVBAR *******/
 .navbar {
   z-index: 2;
+  position: sticky;
   top: 0;
   background-color: black;
   width: 100%;
@@ -112,6 +113,14 @@ body {
 }
 
 /******* PROJECTS *******/
+/* to make the anchor at the center of the page */
+.anchor-projects {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
+  visibility: hidden;
+}
+
 .projects {
   background-color: yellow;
   margin-top: 100px;
@@ -177,8 +186,33 @@ body {
 }
 
 /******* EXPERIENCES *******/
+/* to make the anchor at the center of the page */
+.anchor-experiences {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
+  visibility: hidden;
+}
+
 .experiences {
-  background-color: blue;
+  background-color: yellow;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  z-index: 0;
+  height: 500px;
+}
+
+/******* ABOUT *******/
+/* to make the anchor at the center of the page */
+.anchor-about {
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
+  visibility: hidden;
+}
+
+.about {
+  background-color: yellow;
   margin-top: 100px;
   margin-bottom: 100px;
   z-index: 0;
