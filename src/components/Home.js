@@ -8,12 +8,8 @@ function Home() {
       <div className="left-home">
         <Typed
           className="typed-text"
-          strings={[
-            "Hi There!",
-            "I'm Hevin Jantasmin",
-            "Computer Science student at Cal Poly SLO",
-          ]}
-          typeSpeed={120}
+          strings={["Hi There! I'm Hevin.", "Welcome to my portfolio website."]}
+          typeSpeed={80}
           backSpeed={30}
           loop
         />
