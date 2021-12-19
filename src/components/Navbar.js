@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
@@ -20,7 +21,9 @@ function Navbar() {
         <a href="#section-projects">Projects</a>
         <a href="#section-experiences">Experiences</a>
         <a href="#section-about">About Me</a>
-        <button onClick={toggleNavbar}>Burger Icon</button>
+        <button onClick={toggleNavbar}>
+          <MenuIcon />
+        </button>
       </div>
     </div>
   );

@@ -21,6 +21,7 @@ body {
   height: 100px;
   display: flex;
   flex-direction: row;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .navbar .left-nav {
@@ -42,6 +43,7 @@ body {
 .navbar a {
   color: white;
   text-decoration: none;
+  font-size: 20px;
   margin: 20px;
 }
 
@@ -60,7 +62,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 200px;
-  width: 300px;
+  width: 200px;
   position: fixed;
   top: 0;
   right: 0;
@@ -69,7 +71,7 @@ body {
 }
 
 .navbar #show a {
-  width: 70px;
+  width: 100px;
   margin: 20px;
 }
 
@@ -86,7 +88,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .navbar .right-nav a {
     display: none;
   }
@@ -101,7 +103,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   .navbar .right-nav button {
     display: none;
   }
@@ -114,20 +116,61 @@ body {
 
 /******* HOME *******/
 .home {
-  background-color: yellow;
+  background-color: white;
   margin-top: 150px;
   margin-bottom: 150px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 15px;
   z-index: 0;
-  height: 500px;
+  height: auto;
+  min-height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left-home {
+  height: auto;
+  min-height: 500px;
+  width: 550px;
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
-  padding-left: 100px;
+  padding: 50px;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  margin-right: 100px;
+}
+
+.right-home {
+  background-color: white;
+  height: auto;
+  min-height: 500px;
+  width: 550px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-home img {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
 }
 
 .typed-text {
   font-size: 50px;
   color: black;
+}
+
+@media only screen and (max-width: 1040px) {
+  .right-home {
+    display: none;
+  }
 }
 
 /******* PROJECTS *******/
@@ -146,6 +189,7 @@ body {
   z-index: 0;
   width: 100%;
   height: auto;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
