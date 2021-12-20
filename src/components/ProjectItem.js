@@ -4,13 +4,13 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 function ProjectItem({ name, description, url }) {
   return (
     <div className="project-item">
-      <div>
+      <a href="#">
         <p>{name}</p>
         <p>{description}</p>
         <p>
           <GitHubIcon /> {url}
         </p>
-      </div>
+      </a>
     </div>
   );
 }
