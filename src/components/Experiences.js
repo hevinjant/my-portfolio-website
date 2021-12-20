@@ -5,7 +5,7 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import { myExperiences } from "../Data";
+import { reversedMyExperiences } from "../Data";
 
 function Experiences() {
   return (
@@ -14,7 +14,7 @@ function Experiences() {
       <div className="experiences">
         <h1>Experiences</h1>
         <Timeline className="timeline" position="alternate">
-          {myExperiences.map((experience) => {
+          {reversedMyExperiences.map((experience) => {
             return (
               <TimelineItem>
                 <TimelineSeparator>
@@ -22,12 +22,16 @@ function Experiences() {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  {experience.title}
-                  <p>
-                    {experience.interval}
-                    <br />
-                    {experience.description}
-                  </p>
+                  <div className="experiences-content">
+                    <p className="experience-title">{experience.title}</p>
+                    <div className="experience-info">
+                      <p>{experience.location}</p>
+                      <p>{experience.interval}</p>
+                    </div>
+                    <p className="experience-description">
+                      {experience.description}
+                    </p>
+                  </div>
                 </TimelineContent>
               </TimelineItem>
             );
