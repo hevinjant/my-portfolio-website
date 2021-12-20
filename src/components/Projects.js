@@ -7,7 +7,7 @@ function Projects() {
     <>
       <span className="anchor-projects" id="section-projects"></span>
       <div className="projects" id="section-projects">
-        <h1>My Projects</h1>
+        <h1>Projects</h1>
         <div className="project-list">
           {myProjects.map((project, key) => {
             return (

@@ -13,7 +13,7 @@ function Experiences() {
       <span className="anchor-experiences" id="section-experiences"></span>
       <div className="experiences">
         <h1>Experiences</h1>
-        <Timeline position="alternate">
+        <Timeline className="timeline" position="alternate">
           {myExperiences.map((experience) => {
             return (
               <TimelineItem>

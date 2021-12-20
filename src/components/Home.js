@@ -1,10 +1,11 @@
 import React from "react";
 import Typed from "react-typed";
 import MyPic from "../assets/myPic.jpg";
+import Background1 from "../assets/code3.jpg";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" style={{ backgroundImage: `url(${Background1})` }}>
       <div className="left-home">
         <Typed
           className="typed-text"

@@ -42,4 +42,14 @@ export const myExperiences = [
     interval: "May 20, 2021 - Aug 20, 2021",
     description: "I had a lot of fun.",
   },
+  {
+    title: "experience title 4",
+    interval: "May 20, 2021 - Aug 20, 2021",
+    description: "I had a lot of fun.",
+  },
+  {
+    title: "experience title 5",
+    interval: "May 20, 2021 - Aug 20, 2021",
+    description: "I had a lot of fun.",
+  },
 ];

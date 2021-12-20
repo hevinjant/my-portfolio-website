@@ -6,6 +6,7 @@ function About() {
       <span className="anchor-about" id="section-about"></span>
       <div className="about" id="section-about">
         <h1>About Me</h1>
+        <p>I will do the about me later.</p>
       </div>
     </>
   );
