@@ -14,7 +14,7 @@ export const myProjects = [
   {
     name: "Portfolio website",
     description:
-      "Developed portfolio website using Reactjs and styled with CSS. Hosted by GitHub.",
+      "Developed portfolio website using Reactjs and styled with CSS. Hosted by GitHub Pages.",
     url: "https://github.com/hevinjant/my-portfolio-website",
   },
 ];

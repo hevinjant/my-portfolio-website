@@ -60,7 +60,7 @@ body {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 1vw;
   letter-spacing: 2px;
   font-weight: 400;
   margin: 20px;
@@ -224,7 +224,7 @@ body {
 
 .project-item {
   border-radius: 15px;
-  width: 300px;
+  width: auto;
   height: auto;
   margin: 35px;
   padding: 10px;
@@ -253,13 +253,13 @@ body {
 }
 
 .project-title {
-  font-size: 25px;
+  font-size: 1.2vw;
   font-weight: 700;
 }
 
 .project-description {
   text-align: justify;
-  font-size: 17px;
+  font-size: 1vw;
   line-height: 25px;
 }
 
@@ -305,12 +305,8 @@ body {
   border-radius: 15px;
 }
 
-.experiences-content {
-  font-size: 13px;
-}
-
 .experience-title {
-  font-size: 25px;
+  font-size: 1.2vw;
   font-weight: 700;
   text-align: center;
   margin-top: 3px;
@@ -329,7 +325,7 @@ body {
 .experience-description {
   text-align: justify;
   margin-top: 2px;
-  font-size: 17px;
+  font-size: 1vw;
   line-height: 25px;
 }
 
