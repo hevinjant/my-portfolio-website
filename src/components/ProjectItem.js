@@ -7,7 +7,7 @@ function ProjectItem({ name, description, url }) {
       <a href={url} target="_blank">
         <p className="project-title">{name}</p>
         <p className="project-description">{description}</p>
-        <p>
+        <p className="github-icon">
           <GitHubIcon />
         </p>
       </a>
