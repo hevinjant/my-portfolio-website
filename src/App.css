@@ -238,6 +238,7 @@ body {
 }
 
 .project-item a {
+  padding: 20px;
   position: relative;
   height: 100%;
   text-decoration: none;
@@ -252,13 +253,14 @@ body {
 }
 
 .project-title {
+  font-size: 25px;
   font-weight: 700;
 }
 
 .project-description {
   text-align: justify;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 17px;
+  line-height: 25px;
 }
 
 .github-icon svg {
@@ -308,6 +310,7 @@ body {
 }
 
 .experience-title {
+  font-size: 25px;
   font-weight: 700;
   text-align: center;
   margin-top: 3px;
@@ -319,13 +322,15 @@ body {
 }
 
 .experience-info p {
+  font-size: 17px;
   margin: 2px;
 }
 
 .experience-description {
   text-align: justify;
   margin-top: 2px;
-  line-height: 18px;
+  font-size: 17px;
+  line-height: 25px;
 }
 
 /******* ABOUT *******/
