@@ -60,7 +60,7 @@ body {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1vw;
+  font-size: clamp(15px, 0.9vw, 17px);
   letter-spacing: 2px;
   font-weight: 400;
   margin: 20px;
@@ -253,13 +253,13 @@ body {
 }
 
 .project-title {
-  font-size: 1.2vw;
+  font-size: clamp(15px, 1.2vw, 20px);
   font-weight: 700;
 }
 
 .project-description {
   text-align: justify;
-  font-size: 1vw;
+  font-size: clamp(12px, 1vw, 17px);
   line-height: 25px;
 }
 
@@ -306,7 +306,7 @@ body {
 }
 
 .experience-title {
-  font-size: 1.2vw;
+  font-size: clamp(15px, 1.2vw, 20px);
   font-weight: 700;
   text-align: center;
   margin-top: 3px;
@@ -318,14 +318,14 @@ body {
 }
 
 .experience-info p {
-  font-size: 17px;
+  font-size: clamp(12px, 1vw, 17px);
   margin: 2px;
 }
 
 .experience-description {
   text-align: justify;
   margin-top: 2px;
-  font-size: 1vw;
+  font-size: clamp(12px, 1vw, 17px);
   line-height: 25px;
 }
 
