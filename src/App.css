@@ -30,7 +30,7 @@ body {
 /******* NAVBAR *******/
 .navbar {
   z-index: 2;
-  position: sticky;
+  position: fixed;
   top: 0;
   background-color: black;
   width: 100%;
