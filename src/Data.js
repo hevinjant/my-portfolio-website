@@ -12,10 +12,16 @@ export const myProjects = [
     url: "https://github.com/hevinjant/AntPena",
   },
   {
-    name: "Portfolio website",
+    name: "Portfolio Website",
     description:
       "Developed portfolio website using Reactjs and styled with CSS. Hosted by GitHub Pages.",
     url: "https://github.com/hevinjant/my-portfolio-website",
+  },
+  {
+    name: "Simple Blog-posting Webpage",
+    description:
+      "Developed a blog-posting webpage through Python’s web framework, Django. The program is deployed with Heroku cloud platform and S3 file storage system from Amazon Web Service (AWS).",
+    url: "https://github.com/hevinjant/TMYS",
   },
 ];
 
