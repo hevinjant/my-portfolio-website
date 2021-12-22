@@ -99,15 +99,6 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 900px) {
-  .navbar .right-nav a {
-    width: 70px;
-  }
-  .navbar .leftSide {
-    padding-left: 50px;
-  }
-}
-
 @media only screen and (max-width: 1000px) {
   .navbar .right-nav a {
     display: none;
