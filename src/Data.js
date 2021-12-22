@@ -52,3 +52,6 @@ const myExperiences = [
 ];
 
 export const reversedMyExperiences = myExperiences.reverse();
+
+export const aboutMe =
+  "I am a computer science student at California Polytechnic State University, San Luis Obispo. I mainly interested in frontend and mobile app development, but I love to learn about anything else whenever I get the chance. I love to build things hence why I chose to be a software engineer, so that I could build things that would be useful and meaningful to many people.";

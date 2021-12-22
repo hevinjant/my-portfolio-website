@@ -188,6 +188,11 @@ body {
 }
 
 @media only screen and (max-width: 1040px) {
+  .left-home {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .right-home {
     display: none;
   }
@@ -304,7 +309,6 @@ body {
 
 .timeline {
   width: auto;
-  max-width: 800px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
 }
@@ -326,9 +330,23 @@ body {
   margin: 2px;
 }
 
+.location-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.interval-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
 .experience-description {
   text-align: justify;
-  margin-top: 2px;
+  margin-top: 10px;
   font-size: clamp(12px, 1vw, 17px);
   line-height: 25px;
 }

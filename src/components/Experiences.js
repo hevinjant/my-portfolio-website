@@ -5,6 +5,8 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { reversedMyExperiences } from "../Data";
 
 function Experiences() {
@@ -25,8 +27,14 @@ function Experiences() {
                   <div className="experiences-content">
                     <p className="experience-title">{experience.title}</p>
                     <div className="experience-info">
-                      <p>{experience.location}</p>
-                      <p>{experience.interval}</p>
+                      <div className="location-info">
+                        <LocationOnIcon />
+                        <p>{experience.location}</p>
+                      </div>
+                      <div className="interval-info">
+                        <AccessTimeIcon />
+                        <p>{experience.interval}</p>
+                      </div>
                     </div>
                     <p className="experience-description">
                       {experience.description}
