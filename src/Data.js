@@ -2,8 +2,8 @@ export const myProjects = [
   {
     name: "Spottem - Music Based Social Media",
     description:
-      "Developed social media web application based on Spotify API. Front-end was developed using React JavaScript, back-end using Python Flask, deployed to Heroku, and using Atlas MongoDB for storage.",
-    url: "https://github.com/hevinjant/spottem-project",
+      "Developed social media web application based on Spotify API. Front-end was developed using React JavaScript, back-end using Python Flask, deployed to Heroku, and using Atlas MongoDB for the database.",
+    url: "https://github.com/hevinjant/spottem-reactjs",
   },
   {
     name: "BMP File Compression",
