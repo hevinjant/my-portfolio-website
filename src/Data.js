@@ -6,22 +6,34 @@ export const myProjects = [
     url: "https://github.com/hevinjant/spottem-reactjs",
   },
   {
-    name: "BMP File Compression",
-    description:
-      "Developed multiprocessing program in C/C++ that is able to compress or decompress BMP file using lossless bit-level Huffman encoding algorithm and encrypted using bitwise XOR operation.",
-    url: "https://github.com/hevinjant/CompressBMP",
-  },
-  {
     name: "Messaging Mobile App",
     description:
       "Developed a real-time messaging mobile application using iOS Swift, message kit. The app uses Firebase real-time database for real-time user interaction and supports text, photo, video, and location messages.",
     url: "https://github.com/hevinjant/AntPena",
   },
   {
+    name: "See You Later - Hackathon Project",
+    description:
+      "Developed a web application to manage new year resolutions. New technologies that I learned during the hackathon; integrating web application with MetaMask Crypto Wallet, creating tokens with Ethereum BlockChain using Solidity.",
+    url: "https://github.com/hevinjant/SYL-Hackathon",
+  },
+  {
     name: "Portfolio Website",
     description:
       "Developed portfolio website using Reactjs and styled with CSS. Hosted by GitHub Pages.",
     url: "https://github.com/hevinjant/my-portfolio-website",
+  },
+  {
+    name: "3D Platform Game",
+    description:
+      "Developed 3D game with Unity Real-Time Game Engine. Published through WebGL to Unity Play.",
+    url: "https://play.unity.com/mg/other/webgl-builds-141238",
+  },
+  {
+    name: "BMP File Compression",
+    description:
+      "Developed multiprocessing program in C/C++ that is able to compress or decompress BMP file using lossless bit-level Huffman encoding algorithm and encrypted using bitwise XOR operation.",
+    url: "https://github.com/hevinjant/CompressBMP",
   },
   {
     name: "Simple Blog-posting Webpage",
@@ -60,6 +72,13 @@ const myExperiences = [
     interval: "June 2021 – Aug 2021",
     description:
       "Worked in a team of three people and developed web/mobile application for internal warehouse management using Microsoft 365 platform such as SharePoint, Power Apps, and Power Automate.",
+  },
+  {
+    title: "See You Later, Hackulator - Hackathon",
+    location: "Virtual",
+    interval: "December 31, 2021",
+    description:
+      "Worked in a team of two people, exploring and learning new technologies in one day. Our group developed a website that integrates with MetaMask Crypto Wallet and created token with Ethereum Blockchain using Solidity.",
   },
 ];
 

@@ -8,4 +8,4 @@ Portfolio Website of Hevin Jantasmin.
 
 # Development
 
-Developed using React JavaScript and deployed to Heroku
+Developed using React JavaScript and deployed to GitHub Pages.
