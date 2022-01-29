@@ -14,7 +14,7 @@ export const myProjects = [
   {
     name: "See You Later - Hackathon Project",
     description:
-      "Developed a web application to manage new year resolutions. New technologies that I learned during the hackathon; integrating web application with MetaMask Crypto Wallet, creating tokens with Ethereum BlockChain using Solidity.",
+      "Developed a web application to manage new year resolutions in one day. New technologies that I learned during the hackathon; integrating web application with MetaMask Crypto Wallet, creating tokens and its smart contract with Ethereum BlockChain using Solidity.",
     url: "https://github.com/hevinjant/SYL-Hackathon",
   },
   {
@@ -78,7 +78,7 @@ const myExperiences = [
     location: "Virtual",
     interval: "December 31, 2021",
     description:
-      "Worked in a team of two people, exploring and learning new technologies in one day. Our group developed a website that integrates with MetaMask Crypto Wallet and created token with Ethereum Blockchain using Solidity.",
+      "Worked in a team of two people, exploring and learning new technologies in one day. Our group developed a website that integrates with MetaMask Crypto Wallet and created token and its smart contract with Ethereum BlockChain using Solidity.",
   },
 ];
 
