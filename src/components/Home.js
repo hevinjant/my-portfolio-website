@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import MyPic from "../assets/myPic.jpg";
-import Background1 from "../assets/code3.jpg";
+import Background1 from "../assets/bg1.jpg";
 
 function Home() {
   return (
