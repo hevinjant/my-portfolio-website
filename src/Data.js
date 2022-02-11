@@ -8,7 +8,7 @@ export const myProjects = [
   {
     name: "Messaging Mobile App",
     description:
-      "Developed a real-time messaging mobile application using iOS Swift, message kit. The app uses Firebase real-time database for real-time user interaction and supports text, photo, video, and location messages.",
+      "Developed a real-time messaging mobile application using iOS Swift, with UIKit and MessageKit. The app uses Firebase real-time database for real-time user interaction and supports text, photo, video, and location messages.",
     url: "https://github.com/hevinjant/AntPena",
   },
   {
@@ -50,7 +50,7 @@ const myExperiences = [
       "Academic Computing Research Center at City College of San Francisco",
     interval: "June 2018 – May 2020",
     description:
-      "Guided 7 to 10 students per day to understand basic programming concepts in iOS Swift, C++, C, and Python programming language.",
+      "Guided 7 to 10 students per day to understand programming concepts in iOS Swift, C++, C, and Python programming language.",
   },
   {
     title: "First Winner of Progress Database at API World 2018 Hackathon",
