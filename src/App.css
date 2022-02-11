@@ -1,7 +1,6 @@
 :root {
-  --primary-blue: #5ebec4;
+  --primary-gray: #151515;
   --primary-white: #f5f5f5;
-  --primary-red: #f92c85;
 }
 
 .App {
@@ -11,6 +10,7 @@
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 .App h1 {
@@ -65,7 +65,7 @@ body {
   font-weight: 400;
   margin: 20px;
   padding: 5px;
-  border-top: 2px solid black;
+  border-top: 2px solid var(--primary-gray);
 }
 
 .navbar a:hover {
@@ -288,11 +288,10 @@ body {
 
 .experiences {
   background-color: var(--primary-white);
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 50px 50px 50px;
   padding: 5px;
   height: auto;
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
