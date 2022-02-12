@@ -4,7 +4,8 @@ https://hevinjant.github.io/my-portfolio-website/
 
 # Overview
 
-Portfolio Website of Hevin Jantasmin.
+Check out my portfolio website! </br>
+Here you can see all of my favorite projects and past experiences.
 
 # Development
 
