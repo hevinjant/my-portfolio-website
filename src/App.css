@@ -1,5 +1,6 @@
 :root {
-  --primary-gray: #151515;
+  --primary-gray: #404240;
+  --lighter-gray: #898c8a;
   --primary-white: #f5f5f5;
 }
 
@@ -15,12 +16,12 @@
 }
 
 .App h1 {
-  color: gray;
+  color: var(--lighter-gray);
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid var(--lighter-gray);
   padding: 10px;
 }
 
@@ -373,6 +374,25 @@ body {
   text-align: justify;
   font-size: clamp(15px, 1vw, 18px);
   line-height: 25px;
+}
+
+.about .download-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.about a {
+  padding: 10px;
+  border-radius: 7.5px;
+  border: 1px solid var(--lighter-gray);
+  color: var(--lighter-gray);
+  text-decoration: none;
+}
+
+.about a:hover {
+  color: var(--primary-gray);
 }
 
 /******* FOOTER *******/
