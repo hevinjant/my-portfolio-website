@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-portfolio-website/static/css/main.3fb97674.css",
-    "main.js": "/my-portfolio-website/static/js/main.3afa5d0d.js",
+    "main.css": "/my-portfolio-website/static/css/main.f9f6ef61.css",
+    "main.js": "/my-portfolio-website/static/js/main.ba733264.js",
     "static/js/787.ac3da9cc.chunk.js": "/my-portfolio-website/static/js/787.ac3da9cc.chunk.js",
     "static/media/bg1.jpg": "/my-portfolio-website/static/media/bg1.ff6d3a7c33456c90aabf.jpg",
     "static/media/Hevin_Jantasmin_RESUME_Feb2022.pdf": "/my-portfolio-website/static/media/Hevin_Jantasmin_RESUME_Feb2022.cae198b7a6322b681590.pdf",
     "static/media/myPic.jpg": "/my-portfolio-website/static/media/myPic.66fd20b09c6f04ac292f.jpg",
     "index.html": "/my-portfolio-website/index.html",
-    "main.3fb97674.css.map": "/my-portfolio-website/static/css/main.3fb97674.css.map",
-    "main.3afa5d0d.js.map": "/my-portfolio-website/static/js/main.3afa5d0d.js.map",
+    "main.f9f6ef61.css.map": "/my-portfolio-website/static/css/main.f9f6ef61.css.map",
+    "main.ba733264.js.map": "/my-portfolio-website/static/js/main.ba733264.js.map",
     "787.ac3da9cc.chunk.js.map": "/my-portfolio-website/static/js/787.ac3da9cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fb97674.css",
-    "static/js/main.3afa5d0d.js"
+    "static/css/main.f9f6ef61.css",
+    "static/js/main.ba733264.js"
   ]
 }
