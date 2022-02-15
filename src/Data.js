@@ -14,13 +14,13 @@ export const myProjects = [
   {
     name: "See You Later - One Day Hackathon Project",
     description:
-      "Developed a web application to manage new year resolutions. New technologies that I learned during the hackathon; integrate web application with MetaMask Crypto Wallet, create tokens and its smart contract with Ethereum BlockChain using Solidity.",
+      "Developed a web application to manage new year resolutions using React JavaScript. New technologies that I learned during the hackathon; integrate web application with MetaMask Crypto Wallet, create tokens and its smart contract with Ethereum BlockChain using Solidity.",
     url: "https://github.com/hevinjant/SYL-Hackathon",
   },
   {
     name: "Portfolio Website",
     description:
-      "Developed portfolio website using Reactjs and styled with CSS. Hosted by GitHub Pages.",
+      "Developed portfolio website using React JavaScript and styled with CSS. Hosted by GitHub Pages.",
     url: "https://github.com/hevinjant/my-portfolio-website",
   },
   {
