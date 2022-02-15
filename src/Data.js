@@ -12,9 +12,9 @@ export const myProjects = [
     url: "https://github.com/hevinjant/AntPena",
   },
   {
-    name: "See You Later - Hackathon Project",
+    name: "See You Later - One Day Hackathon Project",
     description:
-      "Developed a web application to manage new year resolutions in one day. New technologies that I learned during the hackathon; integrating web application with MetaMask Crypto Wallet, creating tokens and its smart contract with Ethereum BlockChain using Solidity.",
+      "Developed a web application to manage new year resolutions. New technologies that I learned during the hackathon; integrate web application with MetaMask Crypto Wallet, create tokens and its smart contract with Ethereum BlockChain using Solidity.",
     url: "https://github.com/hevinjant/SYL-Hackathon",
   },
   {
