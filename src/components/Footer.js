@@ -18,7 +18,7 @@ function Footer() {
         <EmailIcon /> hjantasm@calpoly.edu
       </div>
       <p>&copy; 2021 Hevin Jantasmin</p>
-      <p>ver.1.9.2</p>
+      <p>ver.1.9.3</p>
     </div>
   );
 }

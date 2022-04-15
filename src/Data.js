@@ -80,6 +80,12 @@ const myExperiences = [
     description:
       "Worked in a team of two people, exploring and learning new technologies in one day. Our group developed a website that integrates with MetaMask Crypto Wallet and created token and its smart contract with Ethereum BlockChain using Solidity.",
   },
+  {
+    title: "React Developer",
+    location: "Cal Poly Cybersecurity Institute",
+    interval: "March 2022 - Present",
+    description: "Refactoring the event website from React class-based components to functional components, maintaining and implementing user authentication process using AWS Cognito, applying Material UI components to the website.",
+  }
 ];
 
 export const reversedMyExperiences = myExperiences.reverse();
