@@ -348,6 +348,24 @@ body {
   line-height: 25px;
 }
 
+@media only screen and (max-width: 505px) {
+  .experience-wide-screen {
+    display: none;
+  }
+
+  .experiences-content {
+    border-bottom: 1px solid var(--lighter-gray);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 505px) {
+  .experience-small-screen {
+    display: none;
+  }
+}
+
 /******* ABOUT *******/
 /* to make the anchor at the center of the page */
 .anchor-about {
