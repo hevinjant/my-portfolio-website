@@ -148,7 +148,7 @@ body {
   width: 550px;
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 75px 50px 75px 50px;
   justify-content: center;
   margin-right: 25px;
   border: 0.15px solid white;
@@ -216,8 +216,8 @@ body {
 }
 
 .project-list {
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 150px;
+  margin-right: 150px;
   width: auto;
   max-width: 1600px;
   height: auto;
@@ -280,6 +280,11 @@ body {
   .project-list {
     grid-template-columns: 1fr;
   }
+
+  .project-list {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
 }
 
 /******* EXPERIENCES *******/
@@ -293,7 +298,7 @@ body {
 
 .experiences {
   background-color: var(--primary-white);
-  margin: 50px 35px 50px 35px;
+  margin: 50px 150px 50px 150px;
   padding: 5px;
   height: auto;
   width: auto;
@@ -346,6 +351,12 @@ body {
   margin-top: 10px;
   font-size: clamp(12px, 1vw, 17px);
   line-height: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+  .experiences {
+    margin: 50px 35px 50px 35px;
+  }
 }
 
 @media only screen and (max-width: 505px) {
