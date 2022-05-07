@@ -269,10 +269,11 @@ body {
 
 .github-icon svg {
   position: absolute;
-  margin-left: auto;
+  /* margin-left: auto;
   margin-right: auto;
   left: 0;
-  right: 0;
+  right: 0; */
+  transform: translateX(-50%);
   bottom: 0;
   margin-bottom: 10px;
   font-size: 30px;
