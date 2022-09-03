@@ -84,8 +84,16 @@ const myExperiences = [
     title: "React Developer",
     location: "Cal Poly Cybersecurity Institute",
     interval: "March 2022 - Present",
-    description: "Refactoring the Space Grand Challenge website from React class-based components to functional components, maintaining and implementing user authentication process using AWS Cognito, applying Material UI components to the website.",
-  }
+    description:
+      "Refactoring the Space Grand Challenge website from React class-based components to functional components, maintaining and implementing user authentication process using AWS Cognito, applying Material UI components to the website.",
+  },
+  {
+    title: "Fullstack Web Developer",
+    location: "Verdant Robotics",
+    interval: "June 2022 - September 2022",
+    description:
+      "Implementing new features, creating unit tests, and maintaining existing code on a web application.",
+  },
 ];
 
 export const reversedMyExperiences = myExperiences.reverse();
