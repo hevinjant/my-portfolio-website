@@ -64,7 +64,7 @@ const myExperiences = [
     location: "Learning Assistance Center at City College of San Francisco",
     interval: "Aug 2019 – May 2020",
     description:
-      "Guided 4 to 6 students per day to improve their learning ability in advance Algebra and Calculus.",
+      "Guided 4 to 6 students per day to improve their learning ability in advanced Algebra and Calculus.",
   },
   {
     title: "Web/Mobile App developer Intern",
