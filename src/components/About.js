@@ -1,6 +1,6 @@
 import React from "react";
 import { aboutMe } from "../Data";
-import Resume from "../assets/HevinJantasmin_Resume_Oct2022.pdf";
+import Resume from "../assets/HevinJantasmin_Resume_Feb2023.pdf";
 
 function About() {
   return (
