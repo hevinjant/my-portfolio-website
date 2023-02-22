@@ -1,12 +1,15 @@
-export const baseURL = "https://hevinjant.github.io/my-portfolio-website/";
+export const baseURL = {
+  local: "http://localhost:3000/",
+  deployed: "https://hevinjant.github.io/my-portfolio-website/",
+};
 
 export const myProjects = [
   {
     name: "Spottem - Music Based Social Media",
     description:
       "Developed a web application social media based on music. Using Spotify API and Spotify OAuth to access user’s personal information and songs. Developed with React JavaScript, and Python Flask. The web application is deployed to Heroku and the data is managed using Atlas MongoDB database.",
-    //url: "https://github.com/hevinjant/spottem-reactjs",
-    url: baseURL + "spottem",
+    url: "https://github.com/hevinjant/spottem-reactjs",
+    //url: baseURL.deployed + "spottem",
   },
   {
     name: "Messaging Mobile App",
