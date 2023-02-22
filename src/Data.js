@@ -91,14 +91,14 @@ const myExperiences = [
     location: "Cal Poly Cybersecurity Institute",
     interval: "March 2022 - Present",
     description:
-      "Refactoring the Space Grand Challenge website from React class-based components to functional components, maintaining and implementing user authentication process using AWS Cognito, applying Material UI components to the website.",
+      "In an agile environment, working on the Space Grand Challenge website; refactoring the website from React class-based components to functional components, implementing user authentication process using AWS Cognito, and applying Material UI components to the website. Working with technologies such as JavaScript, TypeScript, and AWS.",
   },
   {
     title: "Fullstack Web Developer",
     location: "Verdant Robotics",
     interval: "June 2022 - September 2022",
     description:
-      "Implementing new features, creating unit tests, and maintaining existing code on a web application.",
+      "Working on the internal company’s web applications to automate the weeding work for agriculture. In an agile environment; I was maintaining, updating, and adding new features to the web applications that were built with React JavaScript, TypeScript, and Python Flask.",
   },
 ];
 
