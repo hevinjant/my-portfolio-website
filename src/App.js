@@ -1,20 +1,25 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Projects from "./components/Projects";
-import Experiences from "./components/Experiences";
-import About from "./components/About";
+import Main from "./components/Main";
+import SpottemInfo from "./components/SpottemInfo";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <Projects />
-      <Experiences />
-      <About />
-      <Footer />
+      <Routes>
+        <Route path="/" exact element={<Main />} />
+        <Route
+          path="/spottem"
+          exact
+          element={
+            <>
+              <SpottemInfo />
+            </>
+          }
+        />
+      </Routes>
     </div>
   );
 }

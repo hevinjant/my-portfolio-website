@@ -152,8 +152,12 @@ body {
   padding: 75px 50px 75px 50px;
   justify-content: center;
   margin-right: 25px;
-  border: 0.15px solid white;
+  border: 0.15px solid var(--lighter-gray);
   border-radius: 15px;
+}
+
+.left-home h1 {
+  color: var(--primary-gray);
 }
 
 .right-home {
@@ -466,4 +470,13 @@ body {
 
 .footer p {
   color: white;
+}
+
+.spottem-info .back-link {
+  color: white;
+  font-size: 18px;
+}
+
+.spottem-info .back-link:hover {
+  color: #1db954;
 }
