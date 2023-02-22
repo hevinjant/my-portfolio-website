@@ -9,7 +9,7 @@ function Home() {
         <h1>Hi, I'm Hevin!</h1>
       </div>
       <div className="right-home">
-        <img className="mypic" src={MyPic} />
+        <img className="mypic" alt="no img" src={MyPic} />
       </div>
     </div>
   );

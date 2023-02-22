@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" exact element={<Main />} />
+        <Route path="/my-portfolio-website/" exact element={<Main />} />
         <Route
-          path="/spottem"
+          path="/my-portfolio-website/spottem"
           exact
           element={
             <>
