@@ -15,14 +15,14 @@ function Navbar() {
           <a href="#">Home</a>
           <a href="#section-projects">Projects</a>
           <a href="#section-experiences">Experiences</a>
-          <a href="#section-about">About Me</a>
+          <a href="#section-about">About</a>
         </div>
       </div>
       <div className="right-nav">
         <a href="#">Home</a>
         <a href="#section-projects">Projects</a>
         <a href="#section-experiences">Experiences</a>
-        <a href="#section-about">About Me</a>
+        <a href="#section-about">About</a>
         <button onClick={toggleNavbar}>
           <MenuIcon />
         </button>

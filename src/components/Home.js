@@ -4,7 +4,7 @@ import Background1 from "../assets/pbg3.jpg";
 
 function Home() {
   return (
-    <div className="home" style={{ backgroundImage: `url(${Background1})` }}>
+    <div className="home">
       <div className="left-home">
         <h1>Hi, I'm Hevin!</h1>
       </div>
