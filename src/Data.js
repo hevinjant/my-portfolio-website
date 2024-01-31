@@ -89,7 +89,7 @@ const myExperiences = [
   {
     title: "React Developer",
     location: "Cal Poly Cybersecurity Institute",
-    interval: "March 2022 - Present",
+    interval: "March 2022 - March 2023",
     description:
       "In an agile environment, working on the Space Grand Challenge website; refactoring the website from React class-based components to functional components, implementing user authentication process using AWS Cognito, and applying Material UI components to the website. Working with technologies such as JavaScript, TypeScript, and AWS.",
   },
@@ -105,4 +105,4 @@ const myExperiences = [
 export const reversedMyExperiences = myExperiences.reverse();
 
 export const aboutMe =
-  "I’m a promising software engineer who is passionate about coding and software development. I’m currently focusing on web development in the front-end as well as the back-end and databases. I’m eager to learn about new things and grow in the field of software development. I’m currently a student at Cal Poly SLO majoring in Computer Science and have already gained some experience through internships and personal projects.";
+  "I’m a fresh graduate who is passionate about coding and software development. I’m currently focusing on web development in the front-end as well as the back-end and databases. I’m eager to learn about new things and grow in the field of software development. I received my Bachelor's degree in Computer Science from Cal Poly SLO and have already gained some experience through internships, works, and personal projects.";
