@@ -341,14 +341,7 @@ body {
   margin: 2px;
 }
 
-.location-info {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.interval-info {
+.experience-detail {
   display: flex;
   flex-direction: row;
   align-items: center;

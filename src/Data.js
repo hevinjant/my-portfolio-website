@@ -52,14 +52,16 @@ export const myProjects = [
 const myExperiences = [
   {
     title: "Programming Tutor and Office Assistant",
-    location:
+    company:
       "Academic Computing Research Center at City College of San Francisco",
+    location: "San Francisco, CA",
     interval: "June 2018 – May 2020",
     description:
       "Guided 7 to 10 students per day to understand programming concepts in iOS Swift, C++, C, and Python programming language.",
   },
   {
     title: "First Winner of Progress Database at API World 2018 Hackathon",
+    company: "Hackathon",
     location: "San Jose, CA",
     interval: "Sept 2018",
     description:
@@ -67,20 +69,23 @@ const myExperiences = [
   },
   {
     title: "Mathematics Tutor",
-    location: "Learning Assistance Center at City College of San Francisco",
+    company: "Learning Assistance Center at City College of San Francisco",
+    location: "San Francisco, CA",
     interval: "Aug 2019 – May 2020",
     description:
       "Guided 4 to 6 students per day to improve their learning ability in advanced Algebra and Calculus.",
   },
   {
     title: "Web/Mobile App developer Intern",
-    location: "PT Guna Elektro",
+    company: "PT Guna Elektro",
+    location: "Jakarta, Indonesia",
     interval: "June 2021 – Aug 2021",
     description:
       "Worked in a team of three people and developed web/mobile application for internal warehouse management using Microsoft 365 platform such as SharePoint, Power Apps, and Power Automate.",
   },
   {
     title: "See You Later, Hackulator - Hackathon",
+    company: "Hackathon",
     location: "Virtual",
     interval: "December 31, 2021",
     description:
@@ -88,21 +93,24 @@ const myExperiences = [
   },
   {
     title: "React Developer",
-    location: "Cal Poly Cybersecurity Institute",
+    company: "Cal Poly Cybersecurity Institute",
+    location: "San Luis Obispo, CA",
     interval: "March 2022 - March 2023",
     description:
       "In an agile environment, working on the Space Grand Challenge website; refactoring the website from React class-based components to functional components, implementing user authentication process using AWS Cognito, and applying Material UI components to the website. Working with technologies such as JavaScript, TypeScript, and AWS.",
   },
   {
     title: "Fullstack Web Developer",
-    location: "Verdant Robotics",
+    company: "Verdant Robotics",
+    location: "Hayward, CA",
     interval: "June 2022 - September 2022",
     description:
       "Working on the internal company’s web applications to automate the weeding work for agriculture. In an agile environment; I was maintaining, updating, and adding new features to the web applications that were built with React JavaScript, TypeScript, and Python Flask.",
   },
   {
     title: "IT Analyst",
-    location: "PT Bank BNI New York Agency",
+    company: "PT Bank BNI New York Agency",
+    location: "New York City, NY",
     interval: "April 2023 - Present",
     description: "Analyzing, troubleshooting, and providing technical support for various IT solutions and networks. Enhancing operational workflow by automating repetitive tasks."
   }

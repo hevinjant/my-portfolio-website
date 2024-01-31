@@ -7,9 +7,31 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
+import ApartmentIcon from "@mui/icons-material/Apartment";
 import { reversedMyExperiences } from "../Data";
 
 function Experiences() {
+  const content = (experience) => (
+    <div className="experiences-content">
+      <p className="experience-title">{experience.title}</p>
+      <div className="experience-info">
+        <div className="experience-detail">
+          <ApartmentIcon />
+          <p>{experience.company}</p>
+        </div>
+        <div className="experience-detail">
+          <LocationOnIcon />
+          <p>{experience.location}</p>
+        </div>
+        <div className="experience-detail">
+          <AccessTimeIcon />
+          <p>{experience.interval}</p>
+        </div>
+      </div>
+      <p className="experience-description">{experience.description}</p>
+    </div>
+  );
+
   const wideScreen = (
     <Timeline className="timeline" position="alternate">
       {reversedMyExperiences.map((experience) => {
@@ -19,24 +41,7 @@ function Experiences() {
               <TimelineDot />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>
-              <div className="experiences-content">
-                <p className="experience-title">{experience.title}</p>
-                <div className="experience-info">
-                  <div className="location-info">
-                    <LocationOnIcon />
-                    <p>{experience.location}</p>
-                  </div>
-                  <div className="interval-info">
-                    <AccessTimeIcon />
-                    <p>{experience.interval}</p>
-                  </div>
-                </div>
-                <p className="experience-description">
-                  {experience.description}
-                </p>
-              </div>
-            </TimelineContent>
+            <TimelineContent>{content(experience)}</TimelineContent>
           </TimelineItem>
         );
       })}
@@ -44,22 +49,7 @@ function Experiences() {
   );
 
   const smallScreen = reversedMyExperiences.map((experience) => {
-    return (
-      <div className="experiences-content">
-        <p className="experience-title">{experience.title}</p>
-        <div className="experience-info">
-          <div className="location-info">
-            <LocationOnIcon />
-            <p>{experience.location}</p>
-          </div>
-          <div className="interval-info">
-            <AccessTimeIcon />
-            <p>{experience.interval}</p>
-          </div>
-        </div>
-        <p className="experience-description">{experience.description}</p>
-      </div>
-    );
+    return content(experience);
   });
 
   return (
