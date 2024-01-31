@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-portfolio-website/static/css/main.f399148c.css",
-    "main.js": "/my-portfolio-website/static/js/main.40dbcdb4.js",
+    "main.css": "/my-portfolio-website/static/css/main.e28eaec8.css",
+    "main.js": "/my-portfolio-website/static/js/main.a457ed0e.js",
     "static/js/787.1f11dfe9.chunk.js": "/my-portfolio-website/static/js/787.1f11dfe9.chunk.js",
     "static/media/homePageSS.png": "/my-portfolio-website/static/media/homePageSS.6d03d26c5790e44c19dd.png",
     "static/media/pbg3.jpg": "/my-portfolio-website/static/media/pbg3.2b14b2ad2d52276e24c2.jpg",
     "static/media/activityPageSS.png": "/my-portfolio-website/static/media/activityPageSS.1466de33e02cbe193b80.png",
     "static/media/myPic.jpg": "/my-portfolio-website/static/media/myPic.66fd20b09c6f04ac292f.jpg",
-    "static/media/HevinJantasmin_Resume_Feb2023.pdf": "/my-portfolio-website/static/media/HevinJantasmin_Resume_Feb2023.f1d17655177abf39d4cb.pdf",
+    "static/media/HevinJantasmin_Resume_January2024.pdf": "/my-portfolio-website/static/media/HevinJantasmin_Resume_January2024.f6f37c265ae4d14fdd76.pdf",
     "static/media/spottemLogo.png": "/my-portfolio-website/static/media/spottemLogo.9c01961e4dc1c15f79cc.png",
     "index.html": "/my-portfolio-website/index.html",
-    "main.f399148c.css.map": "/my-portfolio-website/static/css/main.f399148c.css.map",
-    "main.40dbcdb4.js.map": "/my-portfolio-website/static/js/main.40dbcdb4.js.map",
+    "main.e28eaec8.css.map": "/my-portfolio-website/static/css/main.e28eaec8.css.map",
+    "main.a457ed0e.js.map": "/my-portfolio-website/static/js/main.a457ed0e.js.map",
     "787.1f11dfe9.chunk.js.map": "/my-portfolio-website/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f399148c.css",
-    "static/js/main.40dbcdb4.js"
+    "static/css/main.e28eaec8.css",
+    "static/js/main.a457ed0e.js"
   ]
 }
