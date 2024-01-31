@@ -151,6 +151,7 @@ body {
   flex-direction: column;
   padding: 75px 50px 75px 50px;
   justify-content: center;
+  margin-left: 25px;
   margin-right: 25px;
   border: 0.15px solid var(--lighter-gray);
   border-radius: 15px;
@@ -182,15 +183,10 @@ body {
   border-radius: 50%;
 }
 
-.typed-text {
-  font-size: 50px;
-  color: white;
-}
-
 @media only screen and (max-width: 1040px) {
   .left-home {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
   }
 
   .right-home {
