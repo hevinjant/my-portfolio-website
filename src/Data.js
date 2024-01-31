@@ -100,6 +100,12 @@ const myExperiences = [
     description:
       "Working on the internal company’s web applications to automate the weeding work for agriculture. In an agile environment; I was maintaining, updating, and adding new features to the web applications that were built with React JavaScript, TypeScript, and Python Flask.",
   },
+  {
+    title: "IT Analyst",
+    location: "PT Bank BNI New York Agency",
+    interval: "April 2023 - Present",
+    description: "Analyzing, troubleshooting, and providing technical support for various IT solutions and networks. Enhancing operational workflow by automating repetitive tasks."
+  }
 ];
 
 export const reversedMyExperiences = myExperiences.reverse();
