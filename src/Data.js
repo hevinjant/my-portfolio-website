@@ -111,8 +111,8 @@ const myExperiences = [
     title: "IT Analyst",
     company: "PT Bank BNI New York Agency",
     location: "New York City, NY",
-    interval: "April 2023 - Present",
-    description: "Analyzing, troubleshooting, and providing technical support for various IT solutions and networks. Enhancing operational workflow by automating repetitive tasks."
+    interval: "April 2023 - May 2024",
+    description: "Analyzing, troubleshooting, and providing technical support for various IT solutions and networks. Enhancing operational workflow by automating repetitive tasks. Developing web application to streamline and automate the process of tracking and managing employee attendance."
   }
 ];
 

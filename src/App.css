@@ -1,8 +1,8 @@
 :root {
   --primary-gray: #404240;
   --lighter-gray: #898c8a;
-  --primary-white: #f5f5f5;
-  --text-color: #3c3e3c;
+  --primary-white: #121212;
+  --text-color: #f5f5f5;
   background-color: black;
 }
 
@@ -65,7 +65,7 @@ body {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: clamp(12px, 0.8vw, 15px);
+  font-size: clamp(12px, 0.8vw, 13px);
   letter-spacing: 2px;
   font-weight: 400;
   margin: 20px;
@@ -233,11 +233,11 @@ body {
   width: auto;
   height: auto;
   padding: 5px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.2);
 }
 
 .project-item:hover {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.5);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
@@ -257,13 +257,13 @@ body {
 }
 
 .project-title {
-  font-size: clamp(15px, 1.2vw, 20px);
+  font-size: clamp(15px, 1.2vw, 17px);
   font-weight: 700;
 }
 
 .project-description {
   text-align: justify;
-  font-size: clamp(12px, 1vw, 17px);
+  font-size: clamp(12px, 1vw, 14px);
   line-height: 25px;
 }
 
@@ -320,12 +320,12 @@ body {
 
 .timeline {
   width: auto;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.2);
   border-radius: 15px;
 }
 
 .experience-title {
-  font-size: clamp(15px, 1.2vw, 20px);
+  font-size: clamp(15px, 1.2vw, 17px);
   font-weight: 700;
   text-align: center;
   margin-top: 3px;
@@ -337,7 +337,7 @@ body {
 }
 
 .experience-info p {
-  font-size: clamp(12px, 1vw, 17px);
+  font-size: clamp(12px, 1vw, 14px);
   margin: 2px;
 }
 
@@ -351,7 +351,7 @@ body {
 .experience-description {
   text-align: justify;
   margin-top: 10px;
-  font-size: clamp(12px, 1vw, 17px);
+  font-size: clamp(12px, 1vw, 14px);
   line-height: 25px;
 }
 
@@ -406,7 +406,7 @@ body {
   padding-left: clamp(25px, 0.2vw, 200px);
   padding-right: clamp(25px, 0.2vw, 200px);
   text-align: justify;
-  font-size: clamp(15px, 1vw, 18px);
+  font-size: clamp(12px, 1vw, 14px);
   line-height: 25px;
 }
 
