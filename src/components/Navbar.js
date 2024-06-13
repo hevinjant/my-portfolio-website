@@ -12,10 +12,10 @@ function Navbar() {
     <div className="navbar">
       <div className="left-nav" id={showLinks ? "show" : "hide"}>
         <div className="hiddenLinks">
-          <a href="#">Home</a>
-          <a href="#section-projects">Projects</a>
-          <a href="#section-experiences">Experiences</a>
-          <a href="#section-about">About</a>
+          <a onClick={toggleNavbar} href="#">Home</a>
+          <a onClick={toggleNavbar} href="#section-projects">Projects</a>
+          <a onClick={toggleNavbar} href="#section-experiences">Experiences</a>
+          <a onClick={toggleNavbar} href="#section-about">About</a>
         </div>
       </div>
       <div className="right-nav">
